@@ -55,6 +55,18 @@ header p{
 }
 .emergency-contact button:hover{
     transform: scale(1.1);
+
+}
+.emergency-content {
+  background-color: #f8f9fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #264653;
 }
 .search-container{
     margin: 20px;

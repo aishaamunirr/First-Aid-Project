@@ -19,7 +19,7 @@
         <main class="main-content">
             <div class="emergency-contact">
                 <p>🚨Emergency Contact</p>
-                <button onclick="window.location.href = 'tel:112'">📲 Call 112</button>
+                <button onclick= "callEmergency()">📲 Call 112</button>
             </div>
 
             <div class="search-container">
@@ -29,9 +29,9 @@
 
 
         <section class="common-emergencies">
-            <p id="common-e">Some common emergencies</p>
+            <p>Some common emergencies</p>
             <div class="categories-grid">
-                <div class="categories-card">
+                <div class="categories-card" >
                     <p>🩸</p>
                     <p>Cuts & Bleeding</p>
                 </div>
@@ -39,7 +39,7 @@
                     <p>🫁</p>
                     <p>Choking</p>
                 </div>
-                <div class="categories-card">
+                <div class="categories-card" onclick="showEmergency('burns')">
                     <p>🔥</p>
                     <p>Burns</p>
                 </div>
@@ -53,12 +53,15 @@
 
 
         </section>
+         <div class="emergency-content" id="emergencyContent">
+    <p>Click a category or search above to see instructions.</p>
+  </div>
         <footer>
            &#169; Group 3 All Rights Reserved
         </footer>
         </div>
 
-        <script href="script.js"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
