@@ -1,4 +1,11 @@
-
+#languageSelect {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid #e2e8f0;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
 * {
 margin: 0;
 padding: 0;
@@ -51,23 +58,22 @@ body {
     /* color: #2563eb; */
     color: #a7c957;
 }
-
-.search {
-    position: relative;
-}
-
-.search input {
-    padding: 10px 16px;
-    border: 1.5px solid #e2e8f0;
+#languageSelect {
+    padding: 8px;
     border-radius: 8px;
+    border: 1.5px solid #e2e8f0;
     outline: none;
-    width: 240px;
     font-size: 14px;
     transition: border-color 0.2s;
 }
 
-.search input:focus {
-    border-color: #a7c957;
+#languageSelect2 {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1.5px solid #e2e8f0;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.2s;
 }
 
 
@@ -107,7 +113,7 @@ body {
     left: 0;
     right: 0;
     /* background: #fff; */
-    background-color: #264653;
+    background-color: rgb(183, 23, 23);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     padding: 24px;
 }
@@ -197,9 +203,91 @@ body {
     margin-bottom: 12px;
 }
 
+/* First Aid Page */
+#searchField {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
 
+.emergencyCategories {
+    margin-top: 32px;
+    color: #991b1b;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #991b1b;
+}
+.categories{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.categories h3{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 20px;
+}
+.categories h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+.category p{
+    font-size: 14px;
+    margin: 12px 0;
+    text-align: center;
+}
+.category{
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 8px 20px rgba(43, 3, 3, 0.08);
+    transition: all 0.2s;
+    cursor: pointer;
+    border: 2px solid #fecaca71;
+
+}
+.category:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    border-color: #ff7c7c;
+}
+.subcategories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.subcategory {
+    padding: 12px 16px;
+    background: #fef2f2;
+    border-radius: 8px;
+    color: #7f1d1d;
+    font-weight: 500;
+    transition: all 0.2s;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #fecaca;
+    margin-bottom: 10px;
+}
+
+.subcategory:hover {
+    background: #fee2e2;
+    border-color: #fca5a5;
+    color: #991b1b;
+}
 @media (max-width: 768px) {
-    .nav, .search {
+    .nav {
+        display: none;
+    }
+    #languageSelect {
         display: none;
     }
     
@@ -217,6 +305,11 @@ body {
     .about img{
         width: 90%;
     }
+    /* First Aid */
+    .categories{
+        grid-template-columns: 1fr;
+    }
+    .searchField{
+        font-size: 16px;
+    }
 }
-
-

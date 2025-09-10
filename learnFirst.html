@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn First Aid</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Aidemy</a>
+
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="#about">About</a>
+            <a href="learnFirst.html">Learn First Aid</a>
+        </nav>
+
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Pidgin</option>
+        </select>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="home.html">Home</a>
+            <a href="#about">About</a>
+            <a href="learnFirst.html">Learn First Aid</a>
+
+            <select id="languageSelect2" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="fr">Pidgin</option>
+            </select>
+
+        </nav>
+    </header>
+
+    <main class="content">
+        <input type="search" name="searchField" id="searchField" placeholder="Search any emergency e.g. Choking, Burns">
+
+        <div class="emergencyCategories">
+            <h2 class="title">Emergency Categories</h2>
+            <div class="categories">
+                <div class="category">
+                    <h3>🔥</h3>
+                    <h4>Burns</h4>
+                    <p class="category-description">Thermal injuries and heat-related emergencies requiring immediate
+                        cooling treatment.</p>
+                    <div class="subcategory">Chemical Burns</div>
+                    <div class="subcategory">Thermal Burns</div>
+                </div>
+                <div class="category">
+                    <h3>🫀</h3>
+                    <h4>Circulatory & Heart-related Emergencies</h4>
+                    <p class="category-description">Circulatory and heart-related emergencies that require immediate
+                        action to restore blood flow and oxygen to the body.</p>
+                    <div class="subcategory">Stroke</div>
+                    <div class="subcategory">Cardiac Arrest</div>
+                </div>
+                <div class="category">
+                    <h3>🩸</h3>
+                    <h4>Bleeding and Trauma</h4>
+                    <p class="category-description">Serious injuries needing quick bleeding control</p>
+                    <div class="subcategory">Bleeding</div>
+                    <div class="subcategory">Snake/Animal Bite</div>
+                </div>
+                <div class="category">
+                    <h3>🫁</h3>
+                    <h4>Breathing & Airway Problem</h4>
+                    <p class="category-description">Trouble breathing or blocked airway needing immediate clearing and support.</p>
+                    <div class="subcategory">Choking</div>
+                    <div class="subcategory">Drowning</div>
+                </div>
+                <div class="category">
+                    <h3>🧠</h3>
+                    <h4>Neurological Emergencies</h4>
+                    <p class="category-description">Sudden brain disruption needing urgent medical attention.</p>
+                    <div class="subcategory">Seizures</div>
+                </div>
+                <div class="category">
+                    <h3>☠️</h3>
+                    <h4>Poisons</h4>
+                    <p class="category-description">Harmful substances causing illness, needing immediate care.</p>
+                    <div class="subcategory">Conscious</div>
+                    <div class="subcategory">Unconscious</div>
+            </div>
+    </main>
+</body>
+
+</html>
