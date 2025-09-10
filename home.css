@@ -16,6 +16,7 @@ body {
     left: 0;
     right: 0;
     background: rgb(183, 23, 23);
+    background: #991b1b;
     color: white;
     /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
     box-shadow: 0 2px 8px rgba(38, 70, 83, 0.25);
@@ -26,6 +27,35 @@ body {
     align-items: center;
     z-index: 1000;
 }
+footer{
+    width: 100%;
+    background: #991b1b;
+    color: white;
+    text-align: center;
+    padding: 12px 0;
+    position: relative;
+    bottom: 0;
+    line-height: 30px;
+    box-shadow: 0 2px 8px rgba(38, 70, 83, 0.25);
+}
+footer h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+footer p{
+    font-size: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+footer a:hover{
+    color: #facc15;
+}
+
 
 .logo {
     font-weight: 700;
@@ -124,9 +154,6 @@ body {
     border-bottom: 1px solid #f1f5f9;
 }
 
-/* .mobile-menu a:last-of-type {
-    border-bottom: none;
-} */
 
 .mobile-menu a:hover {
     /* color: #2563eb; */
@@ -151,7 +178,7 @@ body {
 }
 
 .content p {
-    color: #4a5568;
+    color: #7f1d1d;
     line-height: 1.6;
     margin-bottom: 24px;
 }
@@ -177,6 +204,7 @@ body {
     margin-bottom: 20px;
     color: #7f1d1d;
 }
+
 .start-btn{
     display: inline-block;
     padding: 12px 24px;
@@ -197,14 +225,6 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-/* .section {
-    margin: 48px 0;
-}
-
-.section h2 {
-    color: #2d3748;
-    margin-bottom: 12px;
-} */
 
 .importance h2{
     margin-top: 50px;
@@ -216,7 +236,6 @@ body {
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
-    color: #7f1d1d;
     margin-bottom: 50px;
 }
 .importancegrid{
@@ -260,11 +279,12 @@ body {
 #searchField {
     width: 100%;
     padding: 12px 16px;
-    border: 1.5px solid #e2e8f0;
+    border: 1.5px solid hwb(0 50% 23%);
     border-radius: 8px;
     outline: none;
     font-size: 14px;
     margin-bottom: 24px;
+    text-align: center;
 }
 
 .emergencyCategories {
@@ -290,28 +310,31 @@ body {
     border-bottom: 20px;
 }
 .categories h4{
-    font-size: 20px;
+    font-size: 27px;
     text-align: center;
     margin: 10px 0;
 }
 .category p{
-    font-size: 14px;
+    font-size: 18px;
     margin: 12px 0;
     text-align: center;
 }
 .category{
     background: white;
+    background: rgb(254, 242, 242, 0.3);
     border-radius: 12px;
     padding: 24px;
     box-shadow: 0 8px 20px rgba(43, 3, 3, 0.08);
     transition: all 0.2s;
     cursor: pointer;
     border: 2px solid #fecaca71;
+    transition: all 0.5s;
 
 }
 .category:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     border-color: #ff7c7c;
+    transform: scale(1.02);
 }
 .subcategories {
     display: grid;
@@ -336,6 +359,39 @@ body {
     background: #fee2e2;
     border-color: #fca5a5;
     color: #991b1b;
+}
+
+/* About Page */
+.about-items{
+    background: #fef2f2;
+    box-shadow: 0 8px 20px rgba(43, 3, 3, 0.08);
+    padding: 40px 20px;
+    margin-bottom: 48px;
+}
+.about-items h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    background: none;
+
+}
+.about-items p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #7f1d1d;
+    padding:  0 40px;
+}
+.closingRemark{
+    font-size: 30px;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.closing {
+    text-align: center;
+    margin-bottom: 50px;
 }
 @media (max-width: 768px) {
     .nav {

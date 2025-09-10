@@ -6,46 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="home.css">
+
 </head>
 
 <body>
     <header class="header">
+        <a href="#" class="logo">Aidemy</a>
 
-        <header class="header">
-            <a href="#" class="logo">Aidemy</a>
-
-            <nav class="nav">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="learnFirst.html">Learn First Aid</a>
-            </nav>
-
-            <select id="languageSelect" onchange="changeLanguage()">
-                <option value="en">English</option>
-                <option value="fr">Pidgin</option>
-            </select>
-
-            <div class="hamburger" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </header>
-
-        <nav class="mobile-menu" id="mobileMenu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
             <a href="learnFirst.html">Learn First Aid</a>
-
-            <select id="languageSelect2" onchange="changeLanguage()">
-                <option value="en">English</option>
-                <option value="fr">Pidgin</option>
-            </select>
-
         </nav>
 
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Pidgin</option>
+        </select>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="learnFirst.html">Learn First Aid</a>
+
+        <select id="languageSelect2" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Pidgin</option>
+        </select>
+
+    </nav>
     </header>
+
     <main class="content">
         <section class="welcome" id="home">
             <div class="welcome-text">
@@ -96,30 +94,26 @@
                     <p>A community with widespread first aid knowledge is safer and more resilient..</p>
 
                 </div>
-
-
-
-
-                <!-- <div class="about">
-            <img src="https://cdn.pixabay.com/photo/2015/08/26/15/07/first-aid-908591_1280.jpg" alt="image">
-            <div>
-                <h2>About Aidemy</h2>
-                <p>Aidemy is a simple yet powerful app designed to educate people on the basics of first aid. Many
-                    people panic or
-                    feel helpless in emergency situations, not because they don’t care, but because they lack the right
-                    knowledge.
-                    Aidemy solves this problem by providing easy-to-follow, step-by-step instructions for common
-                    emergencies such as
-                    bleeding, burns, fainting, or choking. It is written in clear, beginner-friendly language so that
-                    even someone with no
-                    medical background can apply first aid safely and effectively. Our goal is to empower everyday
-                    individuals with the confidence
-                    to act quickly, save lives, and reduce harm before professional medical help arrives.</p>
-            </div>
+    </main>
+    <footer>
+        <div>
+            <h3>Aidemy</h3>
+            <p>First Aid Knowledge for Everyone, Anytime.</p>
         </div>
-    </main> -->
-                <footer></footer>
-                <script src="home.js"></script>
+        <div class="footer-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="learnFirst.html">Learn First Aid</a>
+            <div class="footer-disclaimer">
+                <p>&#9888;QuickAid provides general first aid guidance.It is not a substitute for professional medical care.
+                In emergencies, always seek professional help.</p>
+            </div>
+            <div>
+                <p>&copy; 2024 Aidemy. All rights reserved.</p>
+    </footer>
+
+
+    <script src="home.js"></script>
 </body>
 
 </html>

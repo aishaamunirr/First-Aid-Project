@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About </title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Aidemy</a>
+
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="learnFirst.html">Learn First Aid</a>
+        </nav>
+
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Pidgin</option>
+        </select>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="learnFirst.html">Learn First Aid</a>
+
+        <select id="languageSelect2" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="fr">Pidgin</option>
+        </select>
+
+    </nav>
+    </header>
+
+    <main class="content">
+        <section class="welcome" >
+            <div>
+                <h1>About Aidemy</h1>
+                <p> Aidemy is a simple, easy-to-use platform created to teach everyday people the basics of first aid.
+                    We believe that life-saving knowledge should not be reserved for professionals only — everyone
+                    deserves to know what to do in an emergency..</p>
+            </div>
+        </section>
+
+        <section class="about-items">
+            <h2>Our Vision</h2>
+            <p>To build a world where anyone, anywhere can respond confidently in emergencies.
+                In Nigeria, where medical response can be delayed, Aidemy aims to bridge the gap
+                by empowering individuals with practical, accessible first aid skills.</p>
+        </section>
+
+        <section class="about-items">
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is simple; to make first aid knowledge accessible to everyone,
+                regardless of age, background, or location. We want to remove the fear and
+                confusion that often come with emergencies by offering clear, step-by-step
+                guidance in a language and format that people can understand.
+                By focusing on simplicity and practicality, Aidemy empowers individuals
+                to take immediate action and provide life-saving support when it matters most.
+            </p>
+        </section>
+
+        <section class="about-items">
+            <h2>Why Aidemy is Different</h2>
+            <p>
+                Unlike international apps that focus broadly, Aidemy is built with the Nigerian context in mind.
+                We highlight the real challenges of emergency response in our communities,
+                and our future plans include support for local languages, cultural relevance,
+                and offline access for areas with limited internet.
+            </p>
+        </section>
+
+        <section class="closing">
+            <h2 class="closingRemark">Together, we can save more lives.</h2>
+            <a href="learnFirst.html" class="start-btn">Start learning First Aid</a>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
