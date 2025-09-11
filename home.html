@@ -1,119 +1,233 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <header class="header">
-        <a href="#" class="logo">Aidemy</a>
+  <header class="header">
+    <a href="#" class="logo">Aidemy</a>
 
-        <nav class="nav">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="learnFirst.html">Learn First Aid</a>
-        </nav>
-
-        <select id="languageSelect" onchange="changeLanguage()">
-            <option value="en">English</option>
-            <option value="fr">Pidgin</option>
-        </select>
-
-        <div class="hamburger" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </header>
-
-    <nav class="mobile-menu" id="mobileMenu">
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="learnFirst.html">Learn First Aid</a>
-
-        <select id="languageSelect2" onchange="changeLanguage()">
-            <option value="en">English</option>
-            <option value="fr">Pidgin</option>
-        </select>
-
+    <nav class="nav">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="learnFirst.html">Learn First Aid</a>
     </nav>
-    </header>
 
-    <main class="content">
-        <section class="welcome" id="home">
-            <div class="welcome-text">
-                <h1>Welcome to Aidemy</h1>
-                <p>Your go-to app for learning essential first aid skills.</p>
-                <a href="learnFirst.html" class="start-btn">Start learning First Aid</a>
-            </div>
-        </section>
-        <section class="importance">
-            <h2>Why First Aid Matters</h2>
-            <p>In emergency situations, every second counts. First aid knowledge can mean the difference between
-                life and death.</p>
+    <select id="languageSelect" onchange="changeLanguage()">
+      <option value="en">English</option>
+      <option value="fr">Pidgin</option>
+    </select>
 
-            <div class="importancegrid">
-                <div>
-                    <h3>⌛</h3>
-                    <h4>Time is Critical</h4>
-                    <p>Brain damage can occur within 4-6 minutes without oxygen. First aid buys precious time until
-                        professional help arrives.</p>
-                </div>
-                <div>
-                    <h3>🛟</h3>
-                    <h4>Save lives</h4>
-                    <p>Proper first aid can double or triple a person's chances of survival in cardiac emergencies,
-                        choking, or severe bleeding.</p>
-                </div>
-                <div>
-                    <h3>🩹</h3>
-                    <h4>Prevent Complications</h4>
-                    <p>Immediate care for injuries like burns, fractures, or wounds reduces the risk of infection
-                        and long-term damage.</p>
-                </div>
-                <div>
-                    <h3>🏡</h3>
-                    <h4>Home Safety</h4>
-                    <p>Most emergencies happen at home with family members. Being prepared means protecting the people
-                        you love most.</p>
-                </div>
-                <div>
-                    <h3>💪</h3>
-                    <h4>Empower Yourself</h4>
-                    <p>Knowing first aid boosts your confidence to act decisively in emergencies, helping friends,
-                        family, or strangers in need.</p>
-                </div>
-                <div>
-                    <h3>🌍</h3>
-                    <h4>Community Impact</h4>
-                    <p>A community with widespread first aid knowledge is safer and more resilient..</p>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
 
-                </div>
-    </main>
-    <footer>
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="learnFirst.html">Learn First Aid</a>
+
+    <select id="languageSelect2" onchange="changeLanguage()">
+      <option value="en">English</option>
+      <option value="fr">Pidgin</option>
+    </select>
+
+  </nav>
+  </header>
+
+  <main class="content">
+    <section class="welcome" id="home">
+      <div class="welcome-text">
+        <h1>Welcome to Aidemy</h1>
+        <p>Your go-to app for learning essential first aid skills.</p>
+        <a href="learnFirst.html" class="start-btn">Start learning First Aid</a>
+      </div>
+    </section>
+    <section class="importance">
+      <h2>Why First Aid Matters</h2>
+      <p>In emergency situations, every second counts. First aid knowledge can mean the difference between
+        life and death.</p>
+
+      <div class="importancegrid">
         <div>
-            <h3>Aidemy</h3>
-            <p>First Aid Knowledge for Everyone, Anytime.</p>
+          <h3>⌛</h3>
+          <h4>Time is Critical</h4>
+          <p>Brain damage can occur within 4-6 minutes without oxygen. First aid buys precious time until
+            professional help arrives.</p>
         </div>
-        <div class="footer-links">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="learnFirst.html">Learn First Aid</a>
-            <div class="footer-disclaimer">
-                <p>&#9888; QuickAid provides general first aid guidance.It is not a substitute for professional medical care.
-                In emergencies, always seek professional help.</p>
-            </div>
-            <div>
-                <p>&copy; 2024 Aidemy. All rights reserved.</p>
-    </footer>
+        <div>
+          <h3>🛟</h3>
+          <h4>Save lives</h4>
+          <p>Proper first aid can double or triple a person's chances of survival in cardiac emergencies,
+            choking, or severe bleeding.</p>
+        </div>
+        <div>
+          <h3>🩹</h3>
+          <h4>Prevent Complications</h4>
+          <p>Immediate care for injuries like burns, fractures, or wounds reduces the risk of infection
+            and long-term damage.</p>
+        </div>
+        <div>
+          <h3>🏡</h3>
+          <h4>Home Safety</h4>
+          <p>Most emergencies happen at home with family members. Being prepared means protecting the people
+            you love most.</p>
+        </div>
+        <div>
+          <h3>💪</h3>
+          <h4>Empower Yourself</h4>
+          <p>Knowing first aid boosts your confidence to act decisively in emergencies, helping friends,
+            family, or strangers in need.</p>
+        </div>
+        <div>
+          <h3>🌍</h3>
+          <h4>Community Impact</h4>
+          <p>A community with widespread first aid knowledge is safer and more resilient..</p>
+
+        </div>
+  </main>
+  <footer>
+    <div>
+      <h3>Aidemy</h3>
+      <p>First Aid Knowledge for Everyone, Anytime.</p>
+    </div>
+    <div class="footer-links">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="learnFirst.html">Learn First Aid</a>
+      <div class="footer-disclaimer">
+        <p>&#9888; QuickAid provides general first aid guidance.It is not a substitute for professional medical care.
+          In emergencies, always seek professional help.</p>
+      </div>
+      <div>
+        <p>&copy; 2024 Aidemy. All rights reserved.</p>
+  </footer>
 
 
-    <script src="home.js"></script>
+  <script src="home.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo" data-i18n="header.home">Aidemy</a>
+
+    <nav class="nav">
+      <a href="home.html" data-i18n="header.home">Home</a>
+      <a href="about.html" data-i18n="header.about">About</a>
+      <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+    </nav>
+
+    <select id="languageSelect" onchange="changeLanguage()">
+      <option value="en">English</option>
+      <option value="pd">Pidgin</option>
+    </select>
+
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" id="mobileMenu">
+    <a href="home.html" data-i18n="header.home">Home</a>
+    <a href="about.html" data-i18n="header.about">About</a>
+    <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+
+    <select id="languageSelect2" onchange="changeLanguage()">
+      <option value="en">English</option>
+      <option value="pd">Pidgin</option>
+    </select>
+  </nav>
+
+  <main class="content">
+    <section class="welcome" id="home">
+      <div class="welcome-text">
+        <h1 data-i18n="welcome.title">Welcome to Aidemy</h1>
+        <p data-i18n="welcome.subtitle">Your go-to app for learning essential first aid skills.</p>
+        <a href="learnFirst.html" class="start-btn" data-i18n="welcome.cta">Start learning First Aid</a>
+      </div>
+    </section>
+
+    <section class="importance">
+      <h2 data-i18n="importance.title">Why First Aid Matters</h2>
+      <p data-i18n="importance.p1">In emergency situations, every second counts. First aid knowledge can mean the difference between life and death.</p>
+
+      <div class="importancegrid">
+        <div>
+          <h3>⌛</h3>
+          <h4 data-i18n="importance.time_title">Time is Critical</h4>
+          <p data-i18n="importance.time_text">Brain damage can occur within 4-6 minutes without oxygen. First aid buys precious time until professional help arrives.</p>
+        </div>
+        <div>
+          <h3>🛟</h3>
+          <h4 data-i18n="importance.save_title">Save lives</h4>
+          <p data-i18n="importance.save_text">Proper first aid can double or triple a person's chances of survival in cardiac emergencies, choking, or severe bleeding.</p>
+        </div>
+        <div>
+          <h3>🩹</h3>
+          <h4 data-i18n="importance.prevent_title">Prevent Complications</h4>
+          <p data-i18n="importance.prevent_text">Immediate care for injuries like burns, fractures, or wounds reduces the risk of infection and long-term damage.</p>
+        </div>
+        <div>
+          <h3>🏡</h3>
+          <h4 data-i18n="importance.home_title">Home Safety</h4>
+          <p data-i18n="importance.home_text">Most emergencies happen at home with family members. Being prepared means protecting the people you love most.</p>
+        </div>
+        <div>
+          <h3>💪</h3>
+          <h4 data-i18n="importance.empower_title">Empower Yourself</h4>
+          <p data-i18n="importance.empower_text">Knowing first aid boosts your confidence to act decisively in emergencies, helping friends, family, or strangers in need.</p>
+        </div>
+        <div>
+          <h3>🌍</h3>
+          <h4 data-i18n="importance.community_title">Community Impact</h4>
+          <p data-i18n="importance.community_text">A community with widespread first aid knowledge is safer and more resilient.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h3>Aidemy</h3>
+      <p data-i18n="footer.tagline">First Aid Knowledge for Everyone, Anytime.</p>
+    </div>
+    <div class="footer-links">
+      <a href="home.html" data-i18n="header.home">Home</a>
+      <a href="about.html" data-i18n="header.about">About</a>
+      <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+      <div class="footer-disclaimer">
+        <p data-i18n="footer.disclaimer">⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.</p>
+      </div>
+      <div>
+        <p data-i18n="footer.rights">© 2024 Aidemy. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="home.js"></script>
 </body>
 
 </html>

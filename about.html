@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -98,7 +98,7 @@
             <a href="about.html">About</a>
             <a href="learnFirst.html">Learn First Aid</a>
             <div class="footer-disclaimer">
-                <p>&#9888; QuickAid provides general first aid guidance.It is not a substitute for professional medical
+                <p>&#9888; Aidemy provides general first aid guidance.It is not a substitute for professional medical
                     care.
                     In emergencies, always seek professional help.</p>
             </div>
@@ -108,6 +108,123 @@
 
     <script src="script.js"></script>
 
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="about.title">About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo" data-i18n="header.home">Aidemy</a>
+
+        <nav class="nav">
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+        </nav>
+
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="pd">Pidgin</option>
+        </select>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="home.html" data-i18n="header.home">Home</a>
+        <a href="about.html" data-i18n="header.about">About</a>
+        <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+
+        <select id="languageSelect2" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="pd">Pidgin</option>
+        </select>
+    </nav>
+
+    <main class="content">
+        <section class="welcome">
+            <div>
+                <h1 data-i18n="about.title">About Aidemy</h1>
+                <p data-i18n="about.description">
+                    Aidemy is a simple, easy-to-use platform created to teach everyday people the basics of first aid.
+                    We believe that life-saving knowledge should not be reserved for professionals only — everyone
+                    deserves to know what to do in an emergency.
+                </p>
+            </div>
+        </section>
+
+        <section class="about-items">
+            <h2 data-i18n="about.vision_title">Our Vision</h2>
+            <p data-i18n="about.vision_text">
+                To build a world where anyone, anywhere can respond confidently in emergencies.
+                In Nigeria, where medical response can be delayed, Aidemy aims to bridge the gap
+                by empowering individuals with practical, accessible first aid skills.
+            </p>
+        </section>
+
+        <section class="about-items">
+            <h2 data-i18n="about.mission_title">Our Mission</h2>
+            <p data-i18n="about.mission_text">
+                Our mission is simple; to make first aid knowledge accessible to everyone,
+                regardless of age, background, or location. We want to remove the fear and
+                confusion that often come with emergencies by offering clear, step-by-step
+                guidance in a language and format that people can understand.
+                By focusing on simplicity and practicality, Aidemy empowers individuals
+                to take immediate action and provide life-saving support when it matters most.
+            </p>
+        </section>
+
+        <section class="about-items">
+            <h2 data-i18n="about.different_title">Why Aidemy is Different</h2>
+            <p data-i18n="about.different_text">
+                Unlike international apps that focus broadly, Aidemy is built with the Nigerian context in mind.
+                We highlight the real challenges of emergency response in our communities,
+                and our future plans include support for local languages, cultural relevance,
+                and offline access for areas with limited internet.
+            </p>
+        </section>
+
+        <section class="closing">
+            <h2 class="closingRemark" data-i18n="about.closing_title">Together, we can save more lives.</h2>
+            <a href="learnFirst.html" class="start-btn" data-i18n="about.closing_cta">Start learning First Aid</a>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <h3 data-i18n="header.home">Aidemy</h3>
+            <p data-i18n="footer.tagline">First Aid Knowledge for Everyone, Anytime.</p>
+        </div>
+        <div class="footer-links">
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+            <div class="footer-disclaimer">
+                <p data-i18n="footer.disclaimer">
+                    ⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care.
+                    In emergencies, always seek professional help.
+                </p>
+            </div>
+            <div>
+                <p data-i18n="footer.rights">© 2024 Aidemy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
 </body>
 
 </html>

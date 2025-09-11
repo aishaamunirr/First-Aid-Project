@@ -1,0 +1,119 @@
+{
+  "en": {
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "learn": "Learn First Aid"
+    },
+    "welcome": {
+      "title": "Welcome to Aidemy",
+      "subtitle": "Your go-to app for learning essential first aid skills.",
+      "cta": "Start learning First Aid"
+    },
+    "importance": {
+      "title": "Why First Aid Matters",
+      "p1": "In emergency situations, every second counts. First aid knowledge can mean the difference between life and death.",
+      "time_title": "Time is Critical",
+      "time_text": "Brain damage can occur within 4-6 minutes without oxygen. First aid buys precious time until professional help arrives.",
+      "save_title": "Save lives",
+      "save_text": "Proper first aid can double or triple a person's chances of survival in cardiac emergencies, choking, or severe bleeding.",
+      "prevent_title": "Prevent Complications",
+      "prevent_text": "Immediate care for injuries like burns, fractures, or wounds reduces the risk of infection and long-term damage.",
+      "home_title": "Home Safety",
+      "home_text": "Most emergencies happen at home with family members. Being prepared means protecting the people you love most.",
+      "empower_title": "Empower Yourself",
+      "empower_text": "Knowing first aid boosts your confidence to act decisively in emergencies, helping friends, family, or strangers in need.",
+      "community_title": "Community Impact",
+      "community_text": "A community with widespread first aid knowledge is safer and more resilient."
+    },
+    "about": {
+      "title": "About Aidemy",
+      "description": "Aidemy is a simple, easy-to-use platform created to teach everyday people the basics of first aid. We believe that life-saving knowledge should not be reserved for professionals only — everyone deserves to know what to do in an emergency.",
+      "vision_title": "Our Vision",
+      "vision_text": "To build a world where anyone, anywhere can respond confidently in emergencies. In Nigeria, where medical response can be delayed, Aidemy aims to bridge the gap by empowering individuals with practical, accessible first aid skills.",
+      "mission_title": "Our Mission",
+      "mission_text": "Our mission is simple; to make first aid knowledge accessible to everyone, regardless of age, background, or location. We want to remove the fear and confusion that often come with emergencies by offering clear, step-by-step guidance in a language and format that people can understand. By focusing on simplicity and practicality, Aidemy empowers individuals to take immediate action and provide life-saving support when it matters most.",
+      "different_title": "Why Aidemy is Different",
+      "different_text": "Unlike international apps that focus broadly, Aidemy is built with the Nigerian context in mind. We highlight the real challenges of emergency response in our communities, and our future plans include support for local languages, cultural relevance, and offline access for areas with limited internet.",
+      "closing_title": "Together, we can save more lives.",
+      "closing_cta": "Start learning First Aid"
+    },
+    "footer": {
+      "tagline": "First Aid Knowledge for Everyone, Anytime.",
+      "disclaimer": "⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.",
+      "rights": "© 2024 Aidemy. All rights reserved."
+    }
+  },
+  "pd": {
+    "header": {
+      "home": "Home",
+      "about": "About",
+      "learn": "Learn First Aid"
+    },
+    "welcome": {
+      "title": "Welcome to Aidemy",
+      "subtitle": "Dis app go teach you how to sabi first aid wey fit save life.",
+      "cta": "Start to Learn First Aid"
+    },
+    "importance": {
+      "title": "Why First Aid Important",
+      "p1": "For emergency matter, every second dey important. First aid fit mean life or death.",
+      "time_title": "Time dey Critical",
+      "time_text": "Brain fit damage within 4-6 minutes if air no dey. First aid go buy you small time until help show.",
+      "save_title": "Save Life",
+      "save_text": "Correct first aid fit double or even triple chance wey person go survive if na cardiac wahala, choking, or heavy bleeding.",
+      "prevent_title": "Prevent More Wahala",
+      "prevent_text": "If you treat burns, wounds, or broken bone quick, e go reduce risk of infection or long-term wahala.",
+      "home_title": "House Safety",
+      "home_text": "Most emergency dey happen for house. If you sabi, you fit protect your loved ones.",
+      "empower_title": "Get Confidence",
+      "empower_text": "If you sabi first aid, you go get mind to act quick for emergency — fit help family, padi, or stranger.",
+      "community_title": "Community Benefit",
+      "community_text": "Community wey everybody sabi first aid go dey safe and strong."
+    },
+    "about": {
+      "title": "About Aidemy",
+      "description": "Aidemy na simple app wey easy to use, we create am to teach everyday people how to sabi first aid basics. We believe say life-saving knowledge no supposed be for only professionals — everybody deserve to sabi wetin to do for emergency.",
+      "vision_title": "Our Vision",
+      "vision_text": "We want build world wey anybody, anywhere fit respond with confidence for emergency. For Nigeria, wey medical response fit delay, Aidemy dey try bridge the gap by giving people practical first aid skills wey dem fit use.",
+      "mission_title": "Our Mission", 
+      "mission_text": "Our mission simple; make first aid knowledge accessible to everybody, no matter your age, background, or where you dey. We want remove the fear and confusion wey dey come with emergency by giving clear, step-by-step guide for language and format wey people fit understand. By focusing on simplicity and practical things, Aidemy dey empower people to take quick action and give life-saving support when e matter most.",
+      "different_title": "Why Aidemy Different",
+      "different_text": "Unlike international apps wey dey focus broadly, Aidemy we build am with Nigerian context for mind. We dey highlight the real challenges of emergency response for our communities, and our future plans include support for local languages, cultural relevance, and offline access for areas wey internet no too dey.",
+      "closing_title": "Together, we fit save more lives.",
+      "closing_cta": "Start to Learn First Aid"
+    },
+    "learn": {
+      "search_placeholder": "Search any emergency like Choking, Burns",
+      "categories_title": "Emergency Categories",
+      "burns_title": "Burns",
+      "burns_description": "Hot thing wey damage skin and need cold water quick quick.",
+      "burns_chemical": "Chemical Burns",
+      "burns_thermal": "Hot Burns",
+      "circulatory_title": "Heart & Blood Flow Emergency",
+      "circulatory_description": "Heart and blood flow emergency wey need quick action to restore blood and oxygen to body.",
+      "circulatory_stroke": "Stroke",
+      "circulatory_cardiac": "Heart Stop",
+      "bleeding_title": "Bleeding and Body Injury",
+      "bleeding_description": "Serious injury wey need quick bleeding control",
+      "bleeding_bleeding": "Heavy Bleeding",
+      "bleeding_head": "Head Injury",
+      "breathing_title": "Breathing & Airway Wahala",
+      "breathing_description": "Hard to breathe or blocked airway wey need immediate clearing and support.",
+      "breathing_choking": "Choking",
+      "breathing_drowning": "Drowning",
+      "neurological_title": "Brain Emergency",
+      "neurological_description": "Sudden brain disruption wey need urgent hospital attention.",
+      "neurological_seizures": "Seizures (Convulsion)",
+      "poisons_title": "Poison",
+      "poisons_description": "Bad substance wey dey cause sickness, need immediate care.",
+      "poisons_conscious": "Person Wake",
+      "poisons_unconscious": "Person No Wake"
+    },
+    "footer": {
+      "tagline": "First Aid Knowledge for Everybody, Anytime.",
+      "disclaimer": "⚠ Aidemy na general first aid guide. E no be replacement for hospital care. For emergency, find professional help quick.",
+      "rights": "© 2024 Aidemy. All rights reserved."
+    }
+  }
+}
