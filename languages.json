@@ -41,7 +41,7 @@
     "footer": {
       "tagline": "First Aid Knowledge for Everyone, Anytime.",
       "disclaimer": "⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.",
-      "rights": "© 2024 Aidemy. All rights reserved."
+      "rights": "© 2025 Aidemy. All rights reserved."
     }
   },
   "pd": {
@@ -94,7 +94,7 @@
       "circulatory_title": "Heart & Blood Flow Emergency",
       "circulatory_description": "Heart and blood flow emergency wey need quick action to restore blood and oxygen to body.",
       "circulatory_stroke": "Stroke",
-      "circulatory_cardiac": "Heart Stop",
+      "circulatory_cardiac": "CardiacArrest",
       "bleeding_title": "Bleeding and Body Injury",
       "bleeding_description": "Serious injury wey need quick bleeding control or snake bite care.",
       "bleeding_bleeding": "Heavy Bleeding",
@@ -108,8 +108,12 @@
       "neurological_seizures": "Seizures (Convulsion)",
       "poisons_title": "Poison",
       "poisons_description": "Bad substance wey dey cause sickness, need immediate care.",
-      "poisons_conscious": "Person Wake",
-      "poisons_unconscious": "Person No Wake"
+      "poisons_conscious": "Person dey conscious",
+      "poisons_unconscious": "Person no dey conscious"
+    },
+    "modal": {
+      "steps_title": "Steps:",
+      "key_rule_title": "Key Rule:"
     },
     "footer": {
       "tagline": "First Aid Knowledge for Everybody, Anytime.",

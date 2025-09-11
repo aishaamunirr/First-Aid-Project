@@ -1,7 +1,8 @@
-
 let translations = {};
+let firstAidData = {};
 let currentLang = "en";
 
+// Load translations
 fetch("languages.json")
   .then(res => res.json())
   .then(data => {
@@ -10,12 +11,37 @@ fetch("languages.json")
   })
   .catch(err => console.error("Failed to load translations:", err));
 
+// Load first aid data
+async function fetchFirstAidData() {
+  try {
+    const response = await fetch("data.json");
+    firstAidData = await response.json();
+    console.log("First aid data loaded successfully");
+  } catch (error) {
+    console.error("Error loading first aid data:", error);
+  }
+}
+
 function changeLanguage() {
   const desktopSelect = document.getElementById("languageSelect");
   const mobileSelect = document.getElementById("languageSelect2");
+  
+  // Get current language from the selector that triggered the change
   currentLang = desktopSelect.value;
-  mobileSelect.value = currentLang; 
+  
+  // Sync both selectors
+  mobileSelect.value = currentLang;
+  
   applyTranslations();
+  
+  // If modal is open, refresh its content with new language
+  const modal = document.getElementById("emergencyModal");
+  if (modal.style.display === "block") {
+    // Get current modal title to determine which emergency is showing
+    const modalTitle = document.getElementById("modalTitle").textContent;
+    // Find and re-display the emergency info in new language
+    refreshModalContent();
+  }
 }
 
 function toggleMenu() {
@@ -34,25 +60,17 @@ function applyTranslations() {
   });
 }
 
-// This is the First aid data
-let firstAidData = {};
-
-async function fetchFirstAidData() {
-  try {
-    const response = await fetch("data.json");
-    firstAidData = await response.json();
-    console.log("First aid data loaded successfully");
-  } catch (error) {
-    console.error("Error loading first aid data:", error);
-  }
-}
-
+// Store current emergency info for modal refresh
+let currentEmergencyInfo = null;
 
 function showEmergency(category, subcategory) {
   if (Object.keys(firstAidData).length === 0) {
     alert("First aid data is still loading. Please try again in a moment.");
     return;
   }
+
+  // Store current emergency info for language switching
+  currentEmergencyInfo = { category, subcategory };
 
   const modal = document.getElementById("emergencyModal");
   const modalTitle = document.getElementById("modalTitle");
@@ -62,8 +80,11 @@ function showEmergency(category, subcategory) {
   stepsList.innerHTML = "";
   keyRule.innerHTML = "";
 
+  // Set title (replace underscores with spaces)
   modalTitle.textContent = subcategory.replace(/_/g, " ");
-  const emergency = firstAidData[category][subcategory];
+  
+  // Get emergency data in current language
+  const emergency = firstAidData[currentLang][category][subcategory];
 
   if (emergency && emergency.steps) {
     emergency.steps.forEach(step => {
@@ -73,16 +94,24 @@ function showEmergency(category, subcategory) {
     });
   }
 
-  if (emergency && emergency.key_rule) {
-    keyRule.innerHTML = `<strong>Key Rule:</strong> ${emergency.key_rule}`;
+  if (emergency && emergency.key_rule && emergency.key_rule !== "None") {
+    const keyRuleTitle = translations[currentLang]?.modal?.key_rule_title || "Key Rule:";
+    keyRule.innerHTML = `<strong>${keyRuleTitle}</strong> ${emergency.key_rule}`;
   }
 
   modal.style.display = "block";
 }
 
+function refreshModalContent() {
+  if (currentEmergencyInfo) {
+    showEmergency(currentEmergencyInfo.category, currentEmergencyInfo.subcategory);
+  }
+}
+
 function closeModal() {
   const modal = document.getElementById("emergencyModal");
   modal.style.display = "none";
+  currentEmergencyInfo = null;
 }
 
 window.onclick = function(event) {
@@ -91,7 +120,6 @@ window.onclick = function(event) {
     closeModal();
   }
 };
-
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchFirstAidData();
