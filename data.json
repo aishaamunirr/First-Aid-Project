@@ -1,0 +1,120 @@
+{
+  "Burn": {
+    "Chemical": {
+      "steps": [
+        "Remove Chemical – Brush off dry chemicals, take off contaminated clothes/jewelry (unless stuck).",
+        "Rinse with Water – Flush skin or eyes with cool running water right away. Keep rinsing 20+ minutes.",
+        "Cover Burn – Use a clean, dry, non-fluffy cloth or sterile gauze. Keep it loose.",
+        "Do NOT Apply Anything – No vinegar, creams, oils, toothpaste, butter, or neutralizers.",
+        "Get Emergency Help – Call for help if burn is large, deep, on face/eyes/hands/feet/genitals, victim is very young/old, or unconscious. Take chemical container/label if safe."
+      ],
+      "key_rule": "Flush with water fast and keep flushing until help arrives."
+    },
+    "Thermal": {
+      "steps": [
+        "Cool the Burn – Run under cool water for 20 minutes (or use a clean wet cloth). No ice.",
+        "Apply Lotion (Minor Burns Only) – Use aloe-vera or petroleum jelly. No butter, oils, toothpaste.",
+        "Cover the Burn – Loosely with cling film, clean plastic, or sterile gauze. Don’t remove stuck clothing.",
+        "Seek Emergency Help If: Burn is large/deep, or on face, hands, feet, genitals, joints. Burn from chemicals, electricity, or explosion. Victim is very young, elderly, or unwell."
+      ],
+      "key_rule": "Cool with water, cover, and call for help if serious."
+    }
+  },
+  "Circulatory_Heart_Emergencies": {
+    "Stroke": {
+      "steps": [
+        "Use F.A.S.T. to help remember warning signs:",
+        "Face – Does the face droop on one side when the person tries to smile?",
+        "Arms – Is one arm lower when the person tries to raise both arms? Is one arm weak or numb?",
+        "Speech – Can the person repeat a simple sentence? Is speech slurred or hard to understand?",
+        "Time – Every minute counts during a stroke. Call 911 or your local emergency number right away if you see any of these signs."
+      ],
+      "key_rule": "Do not give food, drink, or medicine until a doctor says so — swallowing may be impaired."
+    },
+    "Cardiac_Arrest": {
+      "steps": [
+        "Check Responsiveness – Tap their shoulder, shout 'Are you okay?'",
+        "Call for Help – Dial emergency services immediately.",
+        "Start CPR: Place heel of one hand in the center of the chest. Push hard and fast (100–120 per minute). Allow chest to rise fully between compressions.",
+        "Keep going until emergency responders arrive or the person starts moving/breathing."
+      ],
+      "key_rule": "Don’t stop until medical help arrives or the person starts breathing/moving."
+    }
+  },
+  "Bleeding_Trauma": {
+    "Severe_Bleeding": {
+      "steps": [
+        "Stop the bleeding – Cover the wound with sterile gauze or a clean cloth. Press firmly until bleeding stops.",
+        "Help the injured person lie down – Place on a rug/blanket to prevent heat loss. Elevate feet if signs of shock appear.",
+        "Keep Still & Await Help – Do not move. When help arrives, inform them how long pressure/tourniquet has been applied."
+      ],
+      "key_rule": "Continuous, firm pressure saves lives."
+    },
+    "Head_Trauma": {
+      "steps": [
+        "Keep the person still – Lay down with head/shoulders slightly elevated. Avoid moving the neck. Do not remove helmet.",
+        "Stop any bleeding – Apply firm pressure with sterile gauze/cloth. Do not press if skull fracture suspected.",
+        "Watch for breathing/alertness – If no breathing/circulation, begin CPR."
+      ],
+      "key_rule": "Do not move the head; keep airway open and get emergency help fast."
+    }
+  },
+  "Breathing_Airway_Problems": {
+    "Choking": {
+      "steps": [
+        "Encourage coughing if partial blockage.",
+        "If severe, give up to 5 back blows while bending them forward.",
+        "If still choking – perform up to 5 abdominal thrusts (Heimlich).",
+        "If unresponsive – Call emergency help, start CPR, check airway after compressions."
+      ],
+      "key_rule": "Do not blindly sweep the mouth with fingers; it can push object deeper."
+    },
+    "Drowning": {
+      "steps": [
+        "Make scene safe – Use reach/row rescue if possible; only enter water if trained and safe.",
+        "Check responsiveness & breathing (10 sec). If breathing normally → recovery position. If not → CPR.",
+        "Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
+      ]
+    }
+  },
+  "Neurological_Emergencies": {
+    "Seizures": {
+      "steps": [
+        "Stay calm – Move objects away, cushion head, loosen tight clothes.",
+        "Do not restrain or put anything in mouth. Time the seizure.",
+        "After seizure stops – place in recovery position if breathing.",
+        "Call emergency help if seizure lasts >5 mins, repeats, first-time, happens in water, injured, pregnant, diabetic, or if breathing doesn’t return.",
+        "Stay until help arrives, be ready for CPR if needed."
+      ]
+    },
+    "Spinal_Cord_Injury": {
+      "steps": [
+        "Do not move person – Keep as found. Align head/neck with rolled towels if possible.",
+        "Control bleeding without moving neck. Keep warm and still.",
+        "If airway must be opened, use jaw-thrust (not head-tilt).",
+        "If unresponsive & not breathing – start CPR carefully minimizing neck movement."
+      ]
+    }
+  },
+  "Poisons": {
+    "Conscious": {
+      "steps": [
+        "Remove source safely.",
+        "Swallowed: clear mouth of poison remains.",
+        "Skin exposure: remove clothes, rinse skin with water 15–20 min.",
+        "Eye exposure: flush eyes with water for 15–20 min.",
+        "If vomiting – turn head sideways. Do not induce vomiting.",
+        "Call Poison Help or Emergency Services immediately."
+      ],
+      "key_rule": "Call for help first, rinse if exposed, turn on side if vomiting, never force vomiting."
+    },
+    "Unconscious": {
+      "steps": [
+        "Call emergency services immediately.",
+        "Check airway, breathing, pulse → if absent, begin CPR.",
+        "Do not give food, drink, or remedies.",
+        "Collect poison containers/labels for EMS."
+      ]
+    }
+  }
+}
