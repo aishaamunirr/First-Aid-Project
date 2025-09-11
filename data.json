@@ -3,7 +3,7 @@
     "Burn": {
       "Chemical_Burn": {
         "steps": [
-          "1. Remove Chemical – Brush off dry chemicals, take off contaminated clothes/jewelry (unless stuck).",
+          "1. Remove Chemical – Brush off chemicals, take off contaminated clothes/jewelry (unless stuck).",
           "2. Rinse with Water – Flush skin or eyes with cool running water right away. Keep rinsing 20+ minutes.",
           "3. Cover Burn – Use a clean, dry, non-fluffy cloth or sterile gauze. Keep it loose.",
           "4. Do NOT Apply Anything – No vinegar, creams, oils, toothpaste, butter, or neutralizers.",
@@ -80,7 +80,7 @@
           "2. Check responsiveness & breathing (10 sec). If breathing normally → recovery position(Lay them on their side, with the head tilted slightly back). If not give CPR.",
           "3. Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     },
     "Neurological_Emergencies": {
@@ -92,7 +92,7 @@
           "4. Call emergency help if seizure lasts >5 mins, repeats, first-time, happens in water, injured, pregnant, diabetic, or if breathing doesn't return.",
           "5. Stay until help arrives, be ready for CPR if needed."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     },
     "Poisons": {
@@ -114,7 +114,7 @@
           "3. Do not give food, drink, or remedies.",
           "4. Collect poison containers/labels for EMS."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     }
   },
@@ -200,7 +200,7 @@
           "2. Check if dem dey respond or dem dey breathe (10 sec). If breathing normal → recovery position (Put dem for side, with head tilt small back). If not, give am CPR.",
           "3. Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     },
     "Neurological_Emergencies": {
@@ -212,7 +212,7 @@
           "4. Call emergency help if seizure last more than 5 minutes, repeat, first time, happen for water, injured, pregnant, diabetic, or if breathing no return.",
           "5. Stay until help reach, ready for CPR if needed."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     },
     "Poisons": {
@@ -234,7 +234,7 @@
           "3. No give food, drink, or medicine.",
           "4. Collect poison containers/labels for emergency people."
         ],
-        "key_rule": "None"
+        "key_rule": "None."
       }
     }
   }
