@@ -1,21 +1,21 @@
 {
   "Burn": {
-    "Chemical": {
+    "Chemical_Burn": {
       "steps": [
-        "Remove Chemical – Brush off dry chemicals, take off contaminated clothes/jewelry (unless stuck).",
-        "Rinse with Water – Flush skin or eyes with cool running water right away. Keep rinsing 20+ minutes.",
-        "Cover Burn – Use a clean, dry, non-fluffy cloth or sterile gauze. Keep it loose.",
-        "Do NOT Apply Anything – No vinegar, creams, oils, toothpaste, butter, or neutralizers.",
-        "Get Emergency Help – Call for help if burn is large, deep, on face/eyes/hands/feet/genitals, victim is very young/old, or unconscious. Take chemical container/label if safe."
+        "1. Remove Chemical – Brush off dry chemicals, take off contaminated clothes/jewelry (unless stuck).",
+        "2. Rinse with Water – Flush skin or eyes with cool running water right away. Keep rinsing 20+ minutes.",
+        "3. Cover Burn – Use a clean, dry, non-fluffy cloth or sterile gauze. Keep it loose.",
+        "4. Do NOT Apply Anything – No vinegar, creams, oils, toothpaste, butter, or neutralizers.",
+        "5. Get Emergency Help – Call for help if burn is large, deep, on face/eyes/hands/feet/genitals, victim is very young/old, or unconscious. Take chemical container/label if safe."
       ],
       "key_rule": "Flush with water fast and keep flushing until help arrives."
     },
-    "Thermal": {
+    "Thermal_Burn": {
       "steps": [
-        "Cool the Burn – Run under cool water for 20 minutes (or use a clean wet cloth). No ice.",
-        "Apply Lotion (Minor Burns Only) – Use aloe-vera or petroleum jelly. No butter, oils, toothpaste.",
-        "Cover the Burn – Loosely with cling film, clean plastic, or sterile gauze. Don’t remove stuck clothing.",
-        "Seek Emergency Help If: Burn is large/deep, or on face, hands, feet, genitals, joints. Burn from chemicals, electricity, or explosion. Victim is very young, elderly, or unwell."
+        "1. Cool the Burn – Run under cool water for 20 minutes (or use a clean wet cloth). No ice.",
+        "2. Apply Lotion (Minor Burns Only) – Use aloe-vera or petroleum jelly. No butter, oils, toothpaste.",
+        "3. Cover the Burn – Loosely with cling film, clean plastic, or sterile gauze. Don’t remove stuck clothing.",
+        "4. Seek Emergency Help If: Burn is large/deep, or on face, hands, feet, genitals, joints. Burn from chemicals, electricity, or explosion. Victim is very young, elderly, or unwell."
       ],
       "key_rule": "Cool with water, cover, and call for help if serious."
     }
@@ -33,88 +33,96 @@
     },
     "Cardiac_Arrest": {
       "steps": [
-        "Check Responsiveness – Tap their shoulder, shout 'Are you okay?'",
-        "Call for Help – Dial emergency services immediately.",
-        "Start CPR: Place heel of one hand in the center of the chest. Push hard and fast (100–120 per minute). Allow chest to rise fully between compressions.",
-        "Keep going until emergency responders arrive or the person starts moving/breathing."
+        "1. Check Responsiveness – Tap their shoulder, and ask if they are okay.",
+        "2. Call for Help – Dial emergency services immediately.",
+        "3. Start CPR: Place heel of one hand in the center of the chest. Push hard and fast (100–120 per minute). Allow chest to rise fully between compressions.",
+        "4. Keep going until emergency responders arrive or the person starts moving/breathing."
       ],
       "key_rule": "Don’t stop until medical help arrives or the person starts breathing/moving."
     }
   },
   "Bleeding_Trauma": {
-    "Severe_Bleeding": {
+    "Bleeding": {
       "steps": [
-        "Stop the bleeding – Cover the wound with sterile gauze or a clean cloth. Press firmly until bleeding stops.",
-        "Help the injured person lie down – Place on a rug/blanket to prevent heat loss. Elevate feet if signs of shock appear.",
-        "Keep Still & Await Help – Do not move. When help arrives, inform them how long pressure/tourniquet has been applied."
+        "1. Stop the bleeding – Cover the wound with sterile gauze or a clean cloth. Press firmly until bleeding stops.",
+        "2. Help the injured person lie down – Place on a rug/blanket to prevent heat loss. Elevate feet if signs of shock appear.",
+        "3. Keep Still & Await Help – Do not move. When help arrives, inform them how long pressure/tourniquet has been applied."
       ],
       "key_rule": "Continuous, firm pressure saves lives."
     },
-    "Head_Trauma": {
+    "Snake_Bite": {
       "steps": [
-        "Keep the person still – Lay down with head/shoulders slightly elevated. Avoid moving the neck. Do not remove helmet.",
-        "Stop any bleeding – Apply firm pressure with sterile gauze/cloth. Do not press if skull fracture suspected.",
-        "Watch for breathing/alertness – If no breathing/circulation, begin CPR."
+        "1. Move Away from the Snake - Do not try to catch or kill it. This risks a second bite.",
+        "2. Stay Calm and Still. This is crucial. Panic and movement increase your heart rate, which speeds the circulation of venom.",
+        "3. Call for Emergency Help Immediately or have someone call. This is the top priority. Time is critical.",
+        "4. Position the Person - Lay them down with the bite below heart level if possible. This slows venom spread.",
+        "5. Remove Constrictive Items - Take off rings, watches, tight clothing near the bite site to allow for swelling.",
+        "6. Clean and Cover. Gently clean the wound if possible and cover with a clean, dry bandage. Do not flush the wound vigorously.",
+        "7. Monitor Vital Signs - Keep an eye on breathing, heart rate, and consciousness. Be ready to perform CPR if necessary."
       ],
-      "key_rule": "Do not move the head; keep airway open and get emergency help fast."
+      "key_rule": "Do not use a tourniquet or attempt to suck out the venom."
     }
   },
   "Breathing_Airway_Problems": {
     "Choking": {
       "steps": [
-        "Encourage coughing if partial blockage.",
-        "If severe, give up to 5 back blows while bending them forward.",
-        "If still choking – perform up to 5 abdominal thrusts (Heimlich).",
-        "If unresponsive – Call emergency help, start CPR, check airway after compressions."
+        "1. Encourage coughing if partial blockage.",
+        "2. If severe, give up to 5 back blows while bending them forward.",
+        "3. If still choking – perform up to 5 abdominal thrusts (Heimlich).",
+        "4. If unresponsive – Call emergency help, start CPR, check airway after compressions."
       ],
       "key_rule": "Do not blindly sweep the mouth with fingers; it can push object deeper."
     },
     "Drowning": {
       "steps": [
-        "Make scene safe – Use reach/row rescue if possible; only enter water if trained and safe.",
-        "Check responsiveness & breathing (10 sec). If breathing normally → recovery position. If not → CPR.",
-        "Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
-      ]
+        "1. Make scene safe – Use reach/row rescue if possible; only enter water if trained and safe.",
+        "2. Check responsiveness & breathing (10 sec). If breathing normally → recovery position(Lay them on their side, with the head tilted slightly back). If not give CPR.",
+        "3. Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
+      ],
+      "key_rule": "None"
     }
   },
   "Neurological_Emergencies": {
     "Seizures": {
       "steps": [
-        "Stay calm – Move objects away, cushion head, loosen tight clothes.",
-        "Do not restrain or put anything in mouth. Time the seizure.",
-        "After seizure stops – place in recovery position if breathing.",
-        "Call emergency help if seizure lasts >5 mins, repeats, first-time, happens in water, injured, pregnant, diabetic, or if breathing doesn’t return.",
-        "Stay until help arrives, be ready for CPR if needed."
-      ]
+        "1. Stay calm – Move objects away, cushion head, loosen tight clothes.",
+        "2. Do not restrain or put anything in mouth. Time the seizure.",
+        "3. After seizure stops – place in recovery position(Roll them onto their side, usually the left side.Tilt the head back slightly to keep the airway open.)if breathing.",
+        "4. Call emergency help if seizure lasts >5 mins, repeats, first-time, happens in water, injured, pregnant, diabetic, or if breathing doesn’t return.",
+        "5. Stay until help arrives, be ready for CPR if needed."
+      ],
+      "key_rule": "None"
     },
     "Spinal_Cord_Injury": {
       "steps": [
-        "Do not move person – Keep as found. Align head/neck with rolled towels if possible.",
-        "Control bleeding without moving neck. Keep warm and still.",
-        "If airway must be opened, use jaw-thrust (not head-tilt).",
-        "If unresponsive & not breathing – start CPR carefully minimizing neck movement."
-      ]
+        "1. Do not move person – Keep as found. Align head/neck with rolled towels if possible.",
+        "2. Control bleeding without moving neck. Keep warm and still.",
+        "3. If airway must be opened, use jaw-thrust (not head-tilt).",
+        "4. If unresponsive & not breathing – start CPR carefully minimizing neck movement."
+      ],
+      "key_rule": "None"
     }
   },
   "Poisons": {
-    "Conscious": {
+    "Conscious_Person": {
       "steps": [
-        "Remove source safely.",
-        "Swallowed: clear mouth of poison remains.",
-        "Skin exposure: remove clothes, rinse skin with water 15–20 min.",
-        "Eye exposure: flush eyes with water for 15–20 min.",
-        "If vomiting – turn head sideways. Do not induce vomiting.",
-        "Call Poison Help or Emergency Services immediately."
+        "1. Remove source safely.",
+        "2. Swallowed: clear mouth of poison remains.",
+        "3. Skin exposure: remove clothes, rinse skin with water 15–20 min.",
+        "4. Eye exposure: flush eyes with water for 15–20 min.",
+        "5. If vomiting – turn head sideways. Do not induce vomiting.",
+        "6. Call Poison Help or Emergency Services immediately."
       ],
       "key_rule": "Call for help first, rinse if exposed, turn on side if vomiting, never force vomiting."
     },
-    "Unconscious": {
+    "Unconscious_Person": {
       "steps": [
-        "Call emergency services immediately.",
-        "Check airway, breathing, pulse → if absent, begin CPR.",
-        "Do not give food, drink, or remedies.",
-        "Collect poison containers/labels for EMS."
-      ]
+        "1. Call emergency services immediately.",
+        "2. Check airway, breathing, pulse → if absent, begin CPR.",
+        "3. Do not give food, drink, or remedies.",
+        "4. Collect poison containers/labels for EMS."
+      ],
+      "key_rule": "None"
     }
   }
 }

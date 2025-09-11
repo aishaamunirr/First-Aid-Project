@@ -51,8 +51,8 @@
                     <!-- <h3>🔥</h3> -->
                     <h4 data-i18n="learn.burns_title">Burns</h4>
                     <p class="category-description" data-i18n="learn.burns_description" >Thermal injuries and heat-related emergencies requiring immediate cooling treatment.</p>
-                    <div class="subcategory" data-i18n="learn.burns_chemical"  onclick="showEmergency('Burn', 'Chemical')">Chemical Burns</div>
-                    <div class="subcategory" data-i18n="learn.burns_thermal" onclick="showEmergency('Burn', 'Thermal')">Thermal Burns</div>
+                    <div class="subcategory" data-i18n="learn.burns_chemical"  onclick="showEmergency('Burn', 'Chemical_Burn')">Chemical Burns</div>
+                    <div class="subcategory" data-i18n="learn.burns_thermal" onclick="showEmergency('Burn', 'Thermal_Burn')">Thermal Burns</div>
                 </div>
                 <div class="category">
                     <!-- <h3>&#129657;</h3> -->
@@ -64,9 +64,9 @@
                 <div class="category">
                     <!-- <h3>🩸</h3> -->
                     <h4 data-i18n="learn.bleeding_title">Bleeding and Trauma</h4>
-                    <p class="category-description" data-i18n="learn.bleeding_description">Serious injuries needing quick bleeding control</p>
-                    <div class="subcategory" data-i18n="learn.bleeding_bleeding" onclick="showEmergency('Bleeding_Trauma', 'Severe_Bleeding')">Bleeding</div>
-                    <div class="subcategory" data-i18n="learn.bleeding_head" onclick="showEmergency('Bleeding_Trauma', 'Head_Trauma')">Head Trauma</div>
+                    <p class="category-description" data-i18n="learn.bleeding_description">Serious injuries needing quick bleeding control or animal bites</p>
+                    <div class="subcategory" data-i18n="learn.bleeding_bleeding" onclick="showEmergency('Bleeding_Trauma', 'Bleeding')">Bleeding</div>
+                    <div class="subcategory" data-i18n="learn.bleeding_head" onclick="showEmergency('Bleeding_Trauma', 'Snake_Bite')">Snake Bite</div>
                 </div>
                 <div class="category">
                     <!-- <h3>🫁</h3> -->
@@ -85,8 +85,8 @@
                     <!-- <h3>☠️</h3> -->
                     <h4 data-i18n="learn.poisons_title">Poisons</h4>
                     <p class="category-description" data-i18n="learn.poisons_description">Harmful substances causing illness, needing immediate care.</p>
-                    <div class="subcategory" data-i18n="learn.poisons_conscious" onclick="showEmergency('Poisons', 'Conscious')">Conscious</div>
-                    <div class="subcategory" data-i18n="learn.poisons_unconscious" onclick="showEmergency('Poisons', 'Unconscious')">Unconscious</div>
+                    <div class="subcategory" data-i18n="learn.poisons_conscious" onclick="showEmergency('Poisons', 'Conscious_Person')">Conscious Person</div>
+                    <div class="subcategory" data-i18n="learn.poisons_unconscious" onclick="showEmergency('Poisons', 'Unconscious_Person')">Unconscious Person</div>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
       <h2 id="modalTitle"></h2>
       <div class="emergency-steps">
         <h3 data-i18n="modal.steps_title">Steps:</h3>
-        <ol id="stepsList"></ol>
+        <ul id="stepsList"></ul>
       </div>
       <div id="keyRule" class="key-rule"></div>
     </div>

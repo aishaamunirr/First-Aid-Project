@@ -14,7 +14,7 @@ function changeLanguage() {
   const desktopSelect = document.getElementById("languageSelect");
   const mobileSelect = document.getElementById("languageSelect2");
   currentLang = desktopSelect.value;
-  mobileSelect.value = currentLang; // sync mobile
+  mobileSelect.value = currentLang; 
   applyTranslations();
 }
 
