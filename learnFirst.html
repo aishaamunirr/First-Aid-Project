@@ -13,9 +13,9 @@
         <a href="#" class="logo">Aidemy</a>
 
         <nav class="nav">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="learnFirst.html">Learn First Aid</a>
+            <a href="home.html" data-i18n="header.home" >Home</a>
+            <a href="about.html" header.about>About</a>
+            <a href="learnFirst.html" header.learn>Learn First Aid</a>
         </nav>
 
         <select id="languageSelect" onchange="changeLanguage()">
@@ -30,9 +30,9 @@
         </div>
 
         <nav class="mobile-menu" id="mobileMenu">
-            <a href="home.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="learnFirst.html">Learn First Aid</a>
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn" >Learn First Aid</a>
 
             <select id="languageSelect2" onchange="changeLanguage()">
                 <option value="en">English</option>
@@ -46,30 +46,30 @@
         <input type="search" name="searchField" id="searchField" placeholder="Search any emergency e.g. Choking, Burns">
 
         <div class="emergencyCategories">
-            <h2 class="title">Emergency Categories</h2>
+            <h2 class="title"  data-i18n="learn.categories_title">Emergency Categories </h2>
             <div class="categories">
                 <div class="category">
                     <h3>🔥</h3>
-                    <h4>Burns</h4>
-                    <p class="category-description">Thermal injuries and heat-related emergencies requiring immediate
+                    <h4  data-i18n="learn.burns_title">Burns</h4>
+                    <p class="category-description" data-i18n="learn.burns_description">Thermal injuries and heat-related emergencies requiring immediate
                         cooling treatment.</p>
-                    <div class="subcategory">Chemical Burns</div>
-                    <div class="subcategory">Thermal Burns</div>
+                    <div class="subcategory" data-i18n="learn.burns_chemical" >Chemical Burns</div>
+                    <div class="subcategory" data-i18n="learn.burns_thermal">Thermal Burns</div>
                 </div>
                 <div class="category">
                     <h3>🫀</h3>
-                    <h4>Circulatory & Heart-related Emergencies</h4>
-                    <p class="category-description">Circulatory and heart-related emergencies that require immediate
+                    <h4 data-i18n="learn.circulatory_title">Circulatory & Heart-related Emergencies</h4>
+                    <p class="category-description"  data-i18n="learn.circulatory_description">Circulatory and heart-related emergencies that require immediate
                         action to restore blood flow and oxygen to the body.</p>
-                    <div class="subcategory">Stroke</div>
-                    <div class="subcategory">Cardiac Arrest</div>
+                    <div class="subcategory"  data-i18n="learn.circulatory_stroke">Stroke</div>
+                    <div class="subcategory"  data-i18n="learn.circulatory_cardiac">Cardiac Arrest</div>
                 </div>
                 <div class="category">
                     <h3>🩸</h3>
-                    <h4>Bleeding and Trauma</h4>
-                    <p class="category-description">Serious injuries needing quick bleeding control</p>
-                    <div class="subcategory">Bleeding</div>
-                    <div class="subcategory">Head Trauma</div>
+                    <h4 data-i18n="learn.bleeding_title"> Bleeding and Trauma</h4>
+                    <p class="category-description" data-i18n="learn.bleeding_description">Serious injuries needing quick bleeding control</p>
+                    <div class="subcategory" data-i18n="learn.bleeding_bleeding">Bleeding</div>
+                    <div class="subcategory" data-i18n="learn.bleeding_head">Head Trauma</div>
                 </div>
                 <div class="category">
                     <h3>🫁</h3>
@@ -115,21 +115,26 @@
     <script src="home.js"></script>
 </body>
 
-</html> -->
+</html>
 
-<!DOCTYPE html>
+
+
+ -->
+
+
+ <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="learn.title">Learn First Aid</title>
+    <title>Learn First Aid</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header class="header">
-        <a href="#" class="logo" data-i18n="header.home">Aidemy</a>
+        <a href="#" class="logo">Aidemy</a>
 
         <nav class="nav">
             <a href="home.html" data-i18n="header.home">Home</a>
@@ -147,71 +152,65 @@
             <span></span>
             <span></span>
         </div>
+
+        <nav class="mobile-menu" id="mobileMenu">
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+
+            <select id="languageSelect2" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="pd">Pidgin</option>
+            </select>
+        </nav>
     </header>
 
-    <nav class="mobile-menu" id="mobileMenu">
-        <a href="home.html" data-i18n="header.home">Home</a>
-        <a href="about.html" data-i18n="header.about">About</a>
-        <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
-
-        <select id="languageSelect2" onchange="changeLanguage()">
-            <option value="en">English</option>
-            <option value="pd">Pidgin</option>
-        </select>
-    </nav>
-
     <main class="content">
-        <input type="search" name="searchField" id="searchField" placeholder="" data-i18n="learn.search_placeholder">
+        <!-- <input type="search" name="searchField" id="searchField" data-placeholder-i18n="learn.search_placeholder" placeholder="Search any emergency e.g. Choking, Burns"> -->
 
         <div class="emergencyCategories">
             <h2 class="title" data-i18n="learn.categories_title">Emergency Categories</h2>
-
             <div class="categories">
                 <div class="category">
-                    <h3>🔥</h3>
+                    <!-- <h3>🔥</h3> -->
                     <h4 data-i18n="learn.burns_title">Burns</h4>
                     <p class="category-description" data-i18n="learn.burns_description">Thermal injuries and heat-related emergencies requiring immediate cooling treatment.</p>
                     <div class="subcategory" data-i18n="learn.burns_chemical">Chemical Burns</div>
                     <div class="subcategory" data-i18n="learn.burns_thermal">Thermal Burns</div>
                 </div>
-
                 <div class="category">
-                    <h3>🫀</h3>
-                    <h4 data-i18n="learn.circulatory_title">Heart & Blood Flow Emergency</h4>
-                    <p class="category-description" data-i18n="learn.circulatory_description">Heart and blood flow emergency wey need quick action to restore blood and oxygen to body.</p>
+                    <!-- <h3>&#129657;</h3> -->
+                    <h4 data-i18n="learn.circulatory_title">Circulatory & Heart-related Emergencies</h4>
+                    <p class="category-description" data-i18n="learn.circulatory_description">Circulatory and heart-related emergencies that require immediate action to restore blood flow and oxygen to the body.</p>
                     <div class="subcategory" data-i18n="learn.circulatory_stroke">Stroke</div>
-                    <div class="subcategory" data-i18n="learn.circulatory_cardiac">Heart Stop</div>
+                    <div class="subcategory" data-i18n="learn.circulatory_cardiac">Cardiac Arrest</div>
                 </div>
-
                 <div class="category">
-                    <h3>🩸</h3>
-                    <h4 data-i18n="learn.bleeding_title">Bleeding and Body Injury</h4>
-                    <p class="category-description" data-i18n="learn.bleeding_description">Serious injury wey need quick bleeding control</p>
-                    <div class="subcategory" data-i18n="learn.bleeding_bleeding">Heavy Bleeding</div>
-                    <div class="subcategory" data-i18n="learn.bleeding_head">Head Injury</div>
+                    <!-- <h3>🩸</h3> -->
+                    <h4 data-i18n="learn.bleeding_title">Bleeding and Trauma</h4>
+                    <p class="category-description" data-i18n="learn.bleeding_description">Serious injuries needing quick bleeding control</p>
+                    <div class="subcategory" data-i18n="learn.bleeding_bleeding">Bleeding</div>
+                    <div class="subcategory" data-i18n="learn.bleeding_head">Head Trauma</div>
                 </div>
-
                 <div class="category">
-                    <h3>🫁</h3>
-                    <h4 data-i18n="learn.breathing_title">Breathing & Airway Wahala</h4>
-                    <p class="category-description" data-i18n="learn.breathing_description">Hard to breathe or blocked airway wey need immediate clearing and support.</p>
+                    <!-- <h3>🫁</h3> -->
+                    <h4 data-i18n="learn.breathing_title">Breathing & Airway Problem</h4>
+                    <p class="category-description" data-i18n="learn.breathing_description">Trouble breathing or blocked airway needing immediate clearing and support.</p>
                     <div class="subcategory" data-i18n="learn.breathing_choking">Choking</div>
                     <div class="subcategory" data-i18n="learn.breathing_drowning">Drowning</div>
                 </div>
-
                 <div class="category">
-                    <h3>🧠</h3>
-                    <h4 data-i18n="learn.neurological_title">Brain Emergency</h4>
-                    <p class="category-description" data-i18n="learn.neurological_description">Sudden brain disruption wey need urgent hospital attention.</p>
-                    <div class="subcategory" data-i18n="learn.neurological_seizures">Seizures (Convulsion)</div>
+                    <!-- <h3>🧠</h3> -->
+                    <h4 data-i18n="learn.neurological_title">Neurological Emergencies</h4>
+                    <p class="category-description" data-i18n="learn.neurological_description">Sudden brain disruption needing urgent medical attention.</p>
+                    <div class="subcategory" data-i18n="learn.neurological_seizures">Seizures</div>
                 </div>
-
                 <div class="category">
-                    <h3>☠️</h3>
-                    <h4 data-i18n="learn.poisons_title">Poison</h4>
-                    <p class="category-description" data-i18n="learn.poisons_description">Bad substance wey dey cause sickness, need immediate care.</p>
-                    <div class="subcategory" data-i18n="learn.poisons_conscious">Person Wake</div>
-                    <div class="subcategory" data-i18n="learn.poisons_unconscious">Person No Wake</div>
+                    <!-- <h3>☠️</h3> -->
+                    <h4 data-i18n="learn.poisons_title">Poisons</h4>
+                    <p class="category-description" data-i18n="learn.poisons_description">Harmful substances causing illness, needing immediate care.</p>
+                    <div class="subcategory" data-i18n="learn.poisons_conscious">Conscious</div>
+                    <div class="subcategory" data-i18n="learn.poisons_unconscious">Unconscious</div>
                 </div>
             </div>
         </div>
@@ -219,7 +218,7 @@
 
     <footer>
         <div>
-            <h3 data-i18n="header.home">Aidemy</h3>
+            <h3>Aidemy</h3>
             <p data-i18n="footer.tagline">First Aid Knowledge for Everyone, Anytime.</p>
         </div>
         <div class="footer-links">
@@ -227,10 +226,10 @@
             <a href="about.html" data-i18n="header.about">About</a>
             <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
             <div class="footer-disclaimer">
-                <p data-i18n="footer.disclaimer">⚠ QuickAid provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.</p>
+                <p data-i18n="footer.disclaimer">⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.</p>
             </div>
             <div>
-                <p data-i18n="footer.rights">© 2024 Aidemy. All rights reserved.</p>
+                <p data-i18n="footer.rights">&copy; 2025 Aidemy. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -239,5 +238,3 @@
 </body>
 
 </html>
-
-
