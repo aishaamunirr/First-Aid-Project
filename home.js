@@ -2,7 +2,7 @@ let translations = {};
 let firstAidData = {};
 let currentLang = "en";
 
-// Load translations
+
 fetch("languages.json")
   .then(res => res.json())
   .then(data => {
@@ -11,8 +11,7 @@ fetch("languages.json")
   })
   .catch(err => console.error("Failed to load translations:", err));
 
-// Load first aid data
-async function fetchFirstAidData() {
+  async function fetchFirstAidData() {
   try {
     const response = await fetch("data.json");
     firstAidData = await response.json();
@@ -26,20 +25,15 @@ function changeLanguage() {
   const desktopSelect = document.getElementById("languageSelect");
   const mobileSelect = document.getElementById("languageSelect2");
   
-  // Get current language from the selector that triggered the change
-  currentLang = desktopSelect.value;
   
-  // Sync both selectors
+  currentLang = desktopSelect.value;
   mobileSelect.value = currentLang;
   
   applyTranslations();
   
-  // If modal is open, refresh its content with new language
   const modal = document.getElementById("emergencyModal");
   if (modal.style.display === "block") {
-    // Get current modal title to determine which emergency is showing
     const modalTitle = document.getElementById("modalTitle").textContent;
-    // Find and re-display the emergency info in new language
     refreshModalContent();
   }
 }
@@ -60,7 +54,7 @@ function applyTranslations() {
   });
 }
 
-// Store current emergency info for modal refresh
+
 let currentEmergencyInfo = null;
 
 function showEmergency(category, subcategory) {
@@ -69,7 +63,7 @@ function showEmergency(category, subcategory) {
     return;
   }
 
-  // Store current emergency info for language switching
+
   currentEmergencyInfo = { category, subcategory };
 
   const modal = document.getElementById("emergencyModal");
@@ -80,10 +74,10 @@ function showEmergency(category, subcategory) {
   stepsList.innerHTML = "";
   keyRule.innerHTML = "";
 
-  // Set title (replace underscores with spaces)
+
   modalTitle.textContent = subcategory.replace(/_/g, " ");
   
-  // Get emergency data in current language
+
   const emergency = firstAidData[currentLang][category][subcategory];
 
   if (emergency && emergency.steps) {
