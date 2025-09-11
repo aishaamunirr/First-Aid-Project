@@ -45,7 +45,7 @@ footer h3{
 footer p{
     font-size: 15px;
 }
-/* Modal styling */
+
 .modal {
     display: none;
     position: fixed;
@@ -59,9 +59,10 @@ footer p{
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: #fef2f2;
+    color: #991b1b;
     margin: 5% auto;
-    padding: 20px;
+    padding: 30px;
     width: 80%;
     max-width: 700px;
     border-radius: 8px;

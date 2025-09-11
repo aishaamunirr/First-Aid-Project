@@ -2,7 +2,6 @@
 let translations = {};
 let currentLang = "en";
 
-// Load translations
 fetch("languages.json")
   .then(res => res.json())
   .then(data => {
@@ -11,7 +10,6 @@ fetch("languages.json")
   })
   .catch(err => console.error("Failed to load translations:", err));
 
-// Language change
 function changeLanguage() {
   const desktopSelect = document.getElementById("languageSelect");
   const mobileSelect = document.getElementById("languageSelect2");
@@ -20,7 +18,6 @@ function changeLanguage() {
   applyTranslations();
 }
 
-// Toggle mobile menu
 function toggleMenu() {
   const menu = document.getElementById("mobileMenu");
   const hamburger = document.querySelector(".hamburger");
@@ -28,7 +25,6 @@ function toggleMenu() {
   hamburger.classList.toggle("active");
 }
 
-// Apply translations
 function applyTranslations() {
   document.querySelectorAll("[data-i18n]").forEach(el => {
     const keys = el.getAttribute("data-i18n").split(".");
@@ -38,7 +34,7 @@ function applyTranslations() {
   });
 }
 
-// First aid data
+// This is the First aid data
 let firstAidData = {};
 
 async function fetchFirstAidData() {
@@ -51,7 +47,7 @@ async function fetchFirstAidData() {
   }
 }
 
-// Show emergency info
+
 function showEmergency(category, subcategory) {
   if (Object.keys(firstAidData).length === 0) {
     alert("First aid data is still loading. Please try again in a moment.");
@@ -84,7 +80,6 @@ function showEmergency(category, subcategory) {
   modal.style.display = "block";
 }
 
-// Close modal
 function closeModal() {
   const modal = document.getElementById("emergencyModal");
   modal.style.display = "none";
@@ -97,7 +92,7 @@ window.onclick = function(event) {
   }
 };
 
-// Initialize app
+
 document.addEventListener("DOMContentLoaded", () => {
   fetchFirstAidData();
 
