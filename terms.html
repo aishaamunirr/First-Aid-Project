@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Aidemy</a>
+
+        <nav class="nav">
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+        </nav>
+
+        <select id="languageSelect" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="pd">Pidgin</option>
+        </select>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <nav class="mobile-menu" id="mobileMenu">
+        <a href="home.html" data-i18n="header.home">Home</a>
+        <a href="about.html" data-i18n="header.about">About</a>
+        <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+
+        <select id="languageSelect2" onchange="changeLanguage()">
+            <option value="en">English</option>
+            <option value="pd">Pidgin</option>
+        </select>
+    </nav>
+
+    <main class="content"> <br>
+        <h1 class="terms">Aidemy Terms and Conditions</h1>
+        <br> <br> <br>
+        <h2>1. Introduction</h2>
+        1.1 These Terms and Conditions ("Terms") govern your use of Aidemy, a website that provides educational
+        resources and guidance on administering first aid.
+        <br>
+        1.2 By accessing or using Aidemy, you agree to be bound by these Terms.
+
+        <br> <br>
+        <h2>2. Intellectual Property</h2>
+        2.1 The content, materials, and resources on Aidemy are protected by intellectual property laws.
+        <br>
+        2.2 You may not reproduce, distribute, or modify any content on Aidemy without prior written permission.
+        <br> <br>
+        <h2>3. Use of Website</h2>
+        3.1 Aidemy is intended for educational purposes only.
+        <br>
+        3.2 You agree to use Aidemy responsibly and in accordance with these Terms.
+        <br>
+        3.3 You may not use Aidemy for any commercial purposes without prior written permission.
+        <br> <br>
+        <h2>4. Disclaimer</h2>
+        4.1 The information on Aidemy is provided for general informational purposes only.
+        <br>
+        4.2 Aidemy is not a substitute for professional medical advice or treatment.
+        <br>
+        4.3 You should always consult a qualified healthcare professional for specific medical advice or treatment.
+        <br> <br>
+        <h2>5. Limitation of Liability</h2>
+        5.1 Aidemy is not liable for any damages or losses resulting from your use of the website.
+        <br>
+        5.2 Aidemy is not responsible for the accuracy or completeness of the information on the website.
+        <br> <br>
+        <h2>6. Governing Law</h2>
+        6.1 These Terms shall be governed by and construed in accordance with the laws of Nigeria.
+        <br>
+        6.2 Any disputes arising out of or related to these Terms shall be resolved through mediation.
+        <br> <br>
+        <h2>7. Changes to Terms</h2>
+        7.1 Aidemy reserves the right to modify or update these Terms at any time.
+        <br>
+        7.2 You agree to review these Terms regularly to ensure you are aware of any changes.
+        <br> <br>
+        <h2>8. Termination</h2>
+        8.1 Aidemy may terminate your access to the website at any time.
+        <br>
+        8.2 Upon termination, you agree to cease using the website.
+        <br> <br>
+        <h2>9. Contact Us</h2>
+        9.1 If you have any questions or concerns about these Terms, please contact us at <a href="#">Aidemy
+            Support</a>.
+        <br>
+        By using Aidemy, you acknowledge that you have read, understood, and agree to be bound by these Terms and
+        Conditions.
+    </main>
+
+    <footer>
+        <div>
+            <h3>Aidemy</h3>
+            <p data-i18n="footer.tagline">First Aid Knowledge for Everyone, Anytime.</p>
+        </div>
+        <div class="footer-links">
+            <a href="home.html" data-i18n="header.home">Home</a>
+            <a href="about.html" data-i18n="header.about">About</a>
+            <a href="learnFirst.html" data-i18n="header.learn">Learn First Aid</a>
+            <div class="footer-disclaimer">
+                <p data-i18n="footer.disclaimer">⚠ Aidemy provides general first aid guidance. It is not a substitute
+                    for professional medical care. In emergencies, always seek professional help.</p>
+                <p class="terms-note">
+                    By using Aidemy, you agree to our
+                    <a href="terms.html">Terms & Conditions</a>.
+                </p>
+            </div>
+            <div>
+                <p data-i18n="footer.rights">© 2025 Aidemy. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+</body>
+
+</html>
