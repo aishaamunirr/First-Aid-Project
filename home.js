@@ -1,6 +1,7 @@
 let translations = {};
 let firstAidData = {};
-let currentLang = "en";
+// let currentLang = "en";
+let currentLang = localStorage.getItem("selectedLang") || "en";
 
 
 fetch("languages.json")
@@ -8,7 +9,10 @@ fetch("languages.json")
   .then(data => {
     translations = data;
     applyTranslations();
+
+    localStorage.setItem("selectedLang", currentLang);
   })
+
   .catch(err => console.error("Failed to load translations:", err));
 
   async function fetchFirstAidData() {
@@ -21,6 +25,7 @@ fetch("languages.json")
   }
 }
 
+
 function changeLanguage() {
   const desktopSelect = document.getElementById("languageSelect");
   const mobileSelect = document.getElementById("languageSelect2");
@@ -28,6 +33,7 @@ function changeLanguage() {
   
   currentLang = desktopSelect.value;
   mobileSelect.value = currentLang;
+  localStorage.setItem("selectedLang", currentLang);
   
   applyTranslations();
   
@@ -122,6 +128,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const languageSelect2 = document.getElementById("languageSelect2");
 
   if (languageSelect && languageSelect2) {
+
+    languageSelect.value = currentLang;
+    languageSelect2.value = currentLang;
+    
     languageSelect2.addEventListener("change", () => {
       languageSelect.value = languageSelect2.value;
       changeLanguage();

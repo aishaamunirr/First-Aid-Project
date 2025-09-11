@@ -38,6 +38,42 @@
       "closing_title": "Together, we can save more lives.",
       "closing_cta": "Start learning First Aid"
     },
+        "learn": {
+      "categories_title": "Emergency Categories",
+
+      "burns_title": "Burns",
+      "burns_description": "Thermal injuries and heat-related emergencies requiring immediate cooling treatment.",
+      "burns_chemical": "Chemical Burns",
+      "burns_thermal": "Thermal Burns",
+
+      "circulatory_title": "Circulatory & Heart-related Emergencies",
+      "circulatory_description": "Circulatory and heart-related emergencies that require immediate action to restore blood flow and oxygen to the body.",
+      "circulatory_stroke": "Stroke",
+      "circulatory_cardiac": "Cardiac Arrest",
+
+      "bleeding_title": "Bleeding and Trauma",
+      "bleeding_description": "Serious injuries needing quick bleeding control or animal bites.",
+      "bleeding_bleeding": "Bleeding",
+      "bleeding_head": "Snake Bite",
+
+      "breathing_title": "Breathing & Airway Problem",
+      "breathing_description": "Trouble breathing or blocked airway needing immediate clearing and support.",
+      "breathing_choking": "Choking",
+      "breathing_drowning": "Drowning",
+
+      "neurological_title": "Neurological Emergencies",
+      "neurological_description": "Sudden brain disruption needing urgent medical attention.",
+      "neurological_seizures": "Seizures",
+
+      "poisons_title": "Poisons",
+      "poisons_description": "Harmful substances causing illness, needing immediate care.",
+      "poisons_conscious": "Conscious Person",
+      "poisons_unconscious": "Unconscious Person"
+    },
+    "modal": {
+      "steps_title": "Steps:",
+      "key_rule_title": "Key Rule:"
+    },
     "footer": {
       "tagline": "First Aid Knowledge for Everyone, Anytime.",
       "disclaimer": "⚠ Aidemy provides general first aid guidance. It is not a substitute for professional medical care. In emergencies, always seek professional help.",
