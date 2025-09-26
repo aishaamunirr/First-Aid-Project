@@ -114,7 +114,7 @@
           "3. Do not give food, drink, or remedies.",
           "4. Collect poison containers/labels for EMS."
         ],
-        "key_rule": "None."
+        "key_rule": "Call emergency services immediately, check breathing and pulse."
       }
     }
   },
@@ -200,7 +200,7 @@
           "2. Check if dem dey respond or dem dey breathe (10 sec). If breathing normal → recovery position (Put dem for side, with head tilt small back). If not, give am CPR.",
           "3. Begin rescue breathing with compressions: 30 chest compressions, then 2 rescue breaths. Continue cycle."
         ],
-        "key_rule": "None."
+        "key_rule": "Call for help, get them out safely, and start CPR with rescue breaths if they’re not breathing."
       }
     },
     "Neurological_Emergencies": {
@@ -212,7 +212,7 @@
           "4. Call emergency help if seizure last more than 5 minutes, repeat, first time, happen for water, injured, pregnant, diabetic, or if breathing no return.",
           "5. Stay until help reach, ready for CPR if needed."
         ],
-        "key_rule": "None."
+        "key_rule": "Call emergency services, keep the person safe and on their side once the shaking stops, and do not restrain or put anything in their mouth."
       }
     },
     "Poisons": {
